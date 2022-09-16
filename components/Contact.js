@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="flex sm:flex-nowrap flex-wrap ">
                 <div className="lg:w-2/3 w-full md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                    <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.6204124369738!2d72.84977071472177!3d19.124301355422528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c970a47d2e7d%3A0x2102619ee0f4791e!2sPoonam%20Overseas%20Consultants%20(Study%20Abroad)!5e0!3m2!1sen!2sca!4v1651588298844!5m2!1sen!2sca"></iframe>
+                    <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2575.099081450321!2d-97.2199486!3d49.8030049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea75506bd804d3%3A0x43ce81687834bc69!2s189%20Vineland%20Crescent%2C%20Winnipeg%2C%20MB!5e0!3m2!1sen!2sca!4v1649531307445!5m2!1sen!2sca"></iframe>
                     <div className="bg-slate-900 relative flex py-6 rounded shadow-md">
                         <div className="lg:w-full px-6 mt-1 lg:mt-0">
                             <h2 className="title-font font-semibold text-sky-500 tracking-widest text-xs">EMAIL</h2>
