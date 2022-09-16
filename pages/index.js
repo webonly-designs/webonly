@@ -13,7 +13,7 @@ export default function Home({works}) {
   return (
     <div className="bg-gray-900">
       <Head>
-        <title>WebOnly | Web Design And Developemnt</title>
+        <title>WebOnly | Web Design And Development</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
         <meta name="description" content="We are a Winnipeg based web design agency with a goal to help local and small businesses make an online presence at affordable pricing." />
