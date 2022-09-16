@@ -9,13 +9,13 @@ export default function Nav() {
         <nav className="bg-gray-900 top-0 z-10 sticky">
       <div className="py-4 px-2 mx-5 lg:mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
-          <a href="/">
+          <Link to="hero" spy={true} smooth={true} offset={-200} duration={500}>
             <div className="inline-flex items-center">
               <h5 className="text-3xl font-bold tracking-wide text-slate-200 cursor-pointer">
                 <span className="text-sky-500">Web</span>Only<span className="text-sky-600">.</span>
               </h5>
             </div>
-          </a>
+          </Link>
 
           <ul className="items-center hidden space-x-10 lg:flex">
             <li>
@@ -64,13 +64,13 @@ export default function Nav() {
                 <div className="p-5 bg-gradient-to-r from-gray-900 to-slate-900 border border-sky-500 rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <a href="/">
+                      <Link to="hero" spy={true} smooth={true} offset={-200} duration={500}>
                         <div className="inline-flex items-center">
                           <h4 className="ml-2 text-xl font-bold tracking-wide text-slate-200 cursor-pointer">
                             <span className="text-sky-500">Web</span>Only<span className="text-sky-500">.</span>
                           </h4>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     <div>
                       <button className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-sky-500 focus:bg-slate-200 focus:outline-none focus:shadow-outline"
