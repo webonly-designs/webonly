@@ -9,7 +9,7 @@ function Hero() {
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
             <div>
-              <p className="inline-block mb-4 text-xs font-semibold tracking-wider text-sky-500 uppercase rounded-full">
+              <p className="inline-block mb-4 text-md font-semibold tracking-wider text-sky-500 uppercase rounded-full">
                 Winnipeg Based
               </p>
             </div>
