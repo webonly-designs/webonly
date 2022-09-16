@@ -35,7 +35,7 @@ export default function Nav() {
             <li>
               <Link to="contact" spy={true} smooth={true} offset={-250} duration={700}>
                 <div className="inline-flex items-center justify-center py-1 px-6 font-medium tracking-wide text-slate-200 transition duration-200 rounded-lg bg-sky-600 hover:bg-sky-500 hover:text-white focus:shadow-outline focus:outline-none cursor-pointer">
-                  <FaPhoneAlt className="mr-2"/> Countact Us
+                  <FaPhoneAlt className="mr-2"/> Contact Us
                 </div>
               </Link>
             </li>
