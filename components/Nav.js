@@ -96,7 +96,7 @@ export default function Nav() {
                       </li>
                       <li>
                         <Link to="work" spy={true} smooth={true} offset={-250} duration={700}>
-                          <div href="/CountryOptions" className="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-sky-500 cursor-pointer">
+                          <div className="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-sky-500 cursor-pointer">
                             Our Work
                           </div>
                         </Link>
