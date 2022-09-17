@@ -24,6 +24,7 @@ export default function Home({works}) {
         <meta property="og:image" content="/webonly.png" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="WebOnly" />
+        <meta name="google-site-verification" content="EdhjxmhJC7aOfw6A3X1fnOTsqLW7jIkROn68oe6UXPk" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Toaster />
