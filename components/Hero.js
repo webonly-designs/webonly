@@ -22,7 +22,7 @@ function Hero() {
             <h1 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl sm:leading-none">
               We Design And Develop
               <br/>
-              <span className="text-sky-500">Websites</span> That You <span className="text-sky-500">{text} <Cursor cursorColor='#0ea5e9'/></span>
+              <span className="text-sky-500">Websites</span> That You <br className="lg:hidden"/><span className="text-sky-500">{text} <Cursor cursorColor='#0ea5e9'/></span>
             </h1>
             <p className="text-base text-slate-200 md:text-lg">
               Our goal is to help local and small businesses make an online presence at affordable pricing.
