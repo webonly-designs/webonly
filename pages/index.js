@@ -11,7 +11,7 @@ import { Toaster } from 'react-hot-toast'
 export default function Home({works}) {
   console.log(works)
   return (
-    <div className="bg-gray-900 h-screen scrollbar-thin scrollbar-track-gray-500/20 scrollbar-thumb-sky-500">
+    <div className="bg-gray-900">
       <Head>
         <title>WebOnly | Web Design And Development Winnipeg</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
