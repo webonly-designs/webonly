@@ -12,6 +12,7 @@ export default function Home({works}) {
   console.log(works)
   return (
     <div className="bg-gray-900">
+      <Html lang="en">
       <Head>
         <title>WebOnly | Web Design And Development Winnipeg</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -26,6 +27,7 @@ export default function Home({works}) {
         <meta property="og:site_name" content="WebOnly" />
         <meta name="google-site-verification" content="EdhjxmhJC7aOfw6A3X1fnOTsqLW7jIkROn68oe6UXPk" />
         <link rel="icon" href="/favicon.ico" />
+
       </Head>
       <Toaster />
       <Nav />
@@ -36,6 +38,7 @@ export default function Home({works}) {
         <Contact />
       </main>
       <Footer />
+      </Html>
     </div>
   )
 }
