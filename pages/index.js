@@ -12,7 +12,7 @@ export default function Home({works}) {
   console.log(works)
   return (
     <div className="bg-gray-900">
-      <Html lang="en">
+      
       <Head>
         <title>WebOnly | Web Design And Development Winnipeg</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -38,7 +38,7 @@ export default function Home({works}) {
         <Contact />
       </main>
       <Footer />
-      </Html>
+    
     </div>
   )
 }
