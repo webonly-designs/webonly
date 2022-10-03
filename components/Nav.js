@@ -1,6 +1,8 @@
 import {useState} from "react"
 import { FaPhoneAlt} from 'react-icons/fa';
-import { Link } from "react-scroll"
+import * as Scroll from 'react-scroll'
+
+let Link = Scroll.Link
 
 export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +23,7 @@ export default function Nav() {
             <li>
               <Link to="services" spy={true} smooth={true} offset={-250} duration={700}>
                 <div className="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-sky-500 cursor-pointer">
-                  Services
+                  <span>Services</span>
                 </div>
               </Link>
             </li>
@@ -67,7 +69,7 @@ export default function Nav() {
                       <Link to="hero" spy={true} smooth={true} offset={-200} duration={500}>
                         <div className="inline-flex items-center">
                           <h4 className="ml-2 text-xl font-bold tracking-wide text-slate-200 cursor-pointer">
-                            <span className="text-sky-500">Web</span>Only<span className="text-sky-500">.</span>
+                            <span id="main-content" tabIndex="-1" className="text-sky-500">Web</span>Only<span className="text-sky-500">.</span>
                           </h4>
                         </div>
                       </Link>

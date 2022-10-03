@@ -17,7 +17,7 @@ export default function Home({works}) {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
         <meta name="description" content="We are a Winnipeg based web design agency with a goal to help local and small businesses make an online presence at affordable pricing." />
-        <meta property="og:title" content="Webony |  Web Design And Developemnt Winnipeg" />
+        <meta property="og:title" content="Webony | Web Design And Developemnt Winnipeg" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.webonly.dev/" />
         <meta property="og:description" content="We are a Winnipeg based web design agency with a goal to help local and small businesses make an online presence at affordable pricing." />
