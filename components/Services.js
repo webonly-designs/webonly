@@ -56,7 +56,7 @@ function Services() {
               />
             </svg>
           </div>
-          <h5 className="mb-2 font-semibold leading-5 text-sky-500">Web Design</h5>
+          <h6 className="mb-2 font-semibold leading-5 text-sky-500">Web Design</h6>
           <p className="mb-3 text-sm text-slate-200">
             Design beautifully crafted websites or web applications using technologies like Wix, Wordpress or React.
           </p>
@@ -79,7 +79,7 @@ function Services() {
               />
             </svg>
           </div>
-          <h5 className="mb-2 font-semibold leading-5 text-sky-500">App Development</h5>
+          <h6 className="mb-2 font-semibold leading-5 text-sky-500">App Development</h6>
           <p className="mb-3 text-sm text-slate-200">
             Develop cross-platform fully functiional Android and IOS applications using React Native.
           </p>
@@ -102,7 +102,7 @@ function Services() {
               />
             </svg>
           </div>
-          <h5 className="mb-2 font-semibold leading-5 text-sky-500">Social Media Marketing</h5>
+          <h6 className="mb-2 font-semibold leading-5 text-sky-500">Social Media Marketing</h6>
           <p className="mb-3 text-sm text-slate-200">
             Create posts, thumbnails, reels, shorts, mockups for Instagram, Facebook and Youtube to increase online presence.
           </p>
