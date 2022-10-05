@@ -28,6 +28,13 @@ export default function Nav() {
               </Link>
             </li>
             <li>
+              <Link to="about" spy={true} smooth={true} offset={-250} duration={700}>
+                <div className="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-sky-500 cursor-pointer">
+                  <span>About</span>
+                </div>
+              </Link>
+            </li>
+            <li>
               <Link to="work" spy={true} smooth={true} offset={-250} duration={700}>
                 <div className="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-sky-500 cursor-pointer">
                   Our Work
@@ -93,6 +100,13 @@ export default function Nav() {
                         <Link to="services" spy={true} smooth={true} offset={-250} duration={700}>
                           <div className="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-sky-500 cursor-pointer">
                             Services
+                          </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="about" spy={true} smooth={true} offset={-250} duration={700}>
+                          <div className="font-medium tracking-wide text-slate-200 transition-colors duration-200 hover:text-sky-500 cursor-pointer">
+                            About
                           </div>
                         </Link>
                       </li>

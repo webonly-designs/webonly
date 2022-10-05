@@ -41,7 +41,7 @@ export default function Contact() {
                     <p className="py-px mb-4 text-md font-semibold tracking-wider text-sky-500 uppercase rounded-full">
                         Contact Us
                     </p>
-                    <h5 className="mb-4 font-sans text-3xl font-bold tracking-tight text-slate-200 sm:text-4xl sm:leading-none">
+                    <h5 className="mb-4 font-sans text-3xl font-bold text-slate-200 sm:text-4xl sm:leading-none">
                          Contact Us Today To Get A Beautifully Designed Website
                     </h5>
                     <div className="relative mb-4">

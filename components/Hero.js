@@ -1,6 +1,9 @@
 import React from 'react'
 import { FaPhoneAlt} from 'react-icons/fa';
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import * as Scroll from 'react-scroll'
+
+let Link = Scroll.Link
 
 function Hero() {
   const [text, count] = useTypewriter({
@@ -29,9 +32,9 @@ function Hero() {
             </p>
           </div>
           <div className="flex pb-4">
-                <a href="/" className="inline-flex items-center justify-center h-10 px-6 font-medium tracking-wide text-slate-200 transition duration-200 rounded-lg shadow-md bg-sky-600 hover:bg-sky-500 focus:shadow-outline focus:outline-none">
+                <Link to="contact" spy={true} smooth={true} offset={-250} duration={700} className="inline-flex items-center justify-center h-10 px-6 font-medium tracking-wide text-slate-200 transition duration-200 rounded-lg shadow-md bg-sky-600 hover:bg-sky-500 focus:shadow-outline focus:outline-none cursor-pointer">
                     <FaPhoneAlt className="mr-2"/> Contact Us
-                </a>
+                </Link>
           </div>
         </div>
         <div className="relative">

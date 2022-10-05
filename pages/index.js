@@ -7,6 +7,7 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import { createClient } from "next-sanity"
 import { Toaster } from 'react-hot-toast'
+import About from '../components/About'
 
 export default function Home({works}) {
   console.log(works)
@@ -14,17 +15,17 @@ export default function Home({works}) {
     <div className="bg-gray-900">
       
       <Head>
-        <title>WebOnly | Web Design And Development Winnipeg</title>
+        <title>WebOnly | Web Design Winnipeg | Web Development Winnipeg</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="site_locale" content="en"/>
         <meta name="Keywords" content="Brand Strategy, Web Design, Web Development, Digital Marketing, SEO, Graphic Design, Web Hosting, Winnipeg,, Canada"/>
-        <meta name="Description" content="We are a Winnipeg based web design agency with a goal to help local and small businesses make an online presence at affordable pricing." />
-        <meta property="og:title" content="Webony | Web Design And Developemnt Winnipeg" />
+        <meta name="Description" content="Webonly is a Winnipeg based web design agency with a goal to help local and small businesses make an online presence at affordable pricing." />
+        <meta property="og:title" content="Webony | Web Design Winnipeg | Web Development Winnipeg" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.webonly.dev/" />
-        <meta property="og:description" content="We are a Winnipeg based web design agency with a goal to help local and small businesses make an online presence at affordable pricing." />
+        <meta property="og:description" content="Webonly is a Winnipeg based web design agency with a goal to help local and small businesses make an online presence at affordable pricing." />
         <meta property="og:image" content="/webonly.png" />
         <meta property="og:locale" content="en_CA" />
         <meta property="og:site_name" content="WebOnly" />
@@ -43,6 +44,7 @@ export default function Home({works}) {
       <main>
         <Hero />
         <Services />
+        <About />
         <Portfolio works={works} />
         <Contact />
       </main>

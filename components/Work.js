@@ -29,13 +29,13 @@ function Work({data}) {
         </div>
         <div className="flex flex-col justify-center p-8 bg-slate-900 lg:p-16 lg:pl-10 lg:w-1/2">
           <div>
-            <p className="inline-block mb-4 text-xs font-semibold tracking-wider text-sky-500 uppercase">
+            <p className="inline-block mb-4 text-md font-semibold tracking-wider text-sky-500 uppercase">
               {data.subtitle}
             </p>
           </div>
-          <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl text-slate-200">
+          <h2 className="mb-3 text-3xl font-bold leading-none sm:text-4xl text-slate-200">
             {data.title}
-          </h5>
+          </h2>
           <div className="mb-5 text-slate-200">
             <PortableText
                 // Pass in block content straight from Sanity.io
