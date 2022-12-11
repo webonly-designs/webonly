@@ -19,23 +19,23 @@ function About() {
           </h2>
           <div className="mb-6 space-y-2">
             <div className="flex items-center">
-                <FaCheckCircle className="mr-2 text-sky-500"/>
+                <FaCheckCircle className="mr-2 w-4 h-4 text-sky-500"/>
                 <p className="text-slate-200 text-md">Fully responsive websites for phones, tablets, desktops and laptops.</p>
             </div>
             <div className="flex items-center">
-                <FaCheckCircle className="mr-2 text-sky-500"/>
+                <FaCheckCircle className="mr-2 w-4 h-4 text-sky-500"/>
                 <p className="text-slate-200">Blazing fast websites with a high performance and SEO scores.</p>
             </div>
             <div className="flex items-center">
-                <FaCheckCircle className="mr-2 text-sky-500"/>
+                <FaCheckCircle className="mr-2 w-4 h-4 text-sky-500"/>
                 <p className="text-slate-200">100% client satisfaction</p>
             </div>
             <div className="flex items-center">
-                <FaCheckCircle className="mr-2 text-sky-500"/>
+                <FaCheckCircle className="mr-2 w-4 h-4 text-sky-500"/>
                 <p className="text-slate-200">Custom web design</p>
             </div>
             <div className="flex items-center">
-                <FaCheckCircle className="mr-2 text-sky-500"/>
+                <FaCheckCircle className="mr-2 w-4 h-4 text-sky-500"/>
                 <p className="text-slate-200">On-time delivery</p>
             </div>
             <div className="flex pt-5">
