@@ -24,7 +24,7 @@ function Work({data}) {
           <img
             src={urlFor(data.mainImage).url()}
             alt={data.title}
-            className="object-contain w-full h-96 p-5"
+            className="object-contain w-full h-full lg:h-96 p-5"
           />
         </div>
         <div className="flex flex-col justify-center p-8 bg-slate-900 lg:p-16 lg:pl-10 lg:w-1/2">
